@@ -1,4 +1,5 @@
-./aa.png
+![Image](aa.png)
+
 # 📜 **Discord Raider Tool** 🚀
 
 ## 📚 Table of Contents
