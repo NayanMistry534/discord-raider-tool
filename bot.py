@@ -23,14 +23,14 @@ intents.members = True
 client = discord.Client(intents=intents)
 
 # Signal handler
-def handle_exit_signal(sig, frame):
+def handle_exit_signal(sig, frame) -> None:
     print("\n[!] Exiting...")
     exit(0)
 
 signal.signal(signal.SIGINT, handle_exit_signal)
 
 # Server spammer
-def send(webhook_url, message):
+def send(webhook_url, message: str) -> None:
     global spam_count
     while spam_count > 0:
         try:
@@ -48,7 +48,7 @@ def send(webhook_url, message):
 
 # Discord bot logic
 @client.event
-async def on_ready():
+async def on_ready() -> None:
     print(f"[+] Logged in as {client.user}")
     try:
         user = await client.fetch_user(int(target_user_id))
@@ -61,7 +61,7 @@ async def on_ready():
     await client.close()
 
 # GUI Components
-def main_menu():
+def main_menu() -> None:
     window = tk.Tk()
     window.title("Main Menu")
     window.geometry("520x400")
@@ -83,7 +83,7 @@ def main_menu():
               bg="red", fg="white", command=open_server_spammer).pack(pady=10)
     window.mainloop()
 
-def dm_spammer_gui():
+def dm_spammer_gui() -> None:
     window = tk.Tk()
     window.title("DM Spammer")
     window.geometry("520x600")
@@ -140,7 +140,7 @@ def dm_spammer_gui():
 
     window.mainloop()
 
-def server_spammer_gui():
+def server_spammer_gui() -> None:
     window = tk.Tk()
     window.title("Server Spammer")
     window.geometry("520x600")
